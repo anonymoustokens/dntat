@@ -1,0 +1,10 @@
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test2.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/DNTAT.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_simple.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_debug.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_multi_signer.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_full_debug.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_aggregation.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_single_sigma.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/edit_cache.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/rebuild_cache.dir

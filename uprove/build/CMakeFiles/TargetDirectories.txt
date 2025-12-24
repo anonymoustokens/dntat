@@ -1,0 +1,3 @@
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/uprove/build/CMakeFiles/uprove_benchmark.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/uprove/build/CMakeFiles/edit_cache.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/uprove/build/CMakeFiles/rebuild_cache.dir

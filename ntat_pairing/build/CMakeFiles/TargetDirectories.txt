@@ -1,0 +1,4 @@
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat_pairing/build/CMakeFiles/ntat_benchmark.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat_pairing/build/CMakeFiles/test_simple.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat_pairing/build/CMakeFiles/edit_cache.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat_pairing/build/CMakeFiles/rebuild_cache.dir
