@@ -26,3 +26,16 @@ target_link_libraries(ntat_benchmark
 
 set(CMAKE_BUILD_TYPE Release)
 target_compile_options(ntat_benchmark PRIVATE -O3 -march=native)
+
+# Scaling benchmark
+add_executable(mpc_scaling_bench
+    ${CMAKE_SOURCE_DIR}/src/ntat.cpp
+    ${CMAKE_SOURCE_DIR}/src/scaling_bench.cpp
+)
+target_link_libraries(mpc_scaling_bench
+    /Users/simonlion/mcl/lib/libmcl.a
+    /Users/simonlion/mcl/lib/libmclbn256.a
+    OpenSSL::Crypto
+    Threads::Threads
+)
+target_compile_options(mpc_scaling_bench PRIVATE -O3 -march=native)

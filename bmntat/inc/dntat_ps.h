@@ -33,9 +33,9 @@ private:
     void hashToG2(G2& P, const std::string& m);
     void hashToFr(Fr& f, const void* data, size_t size);
     Fr H_agg(const std::vector<PublicKey>& pks, const G2& pk_i);
-    std::vector<Fr> compute_a(const std::vector<PublicKey>& pks);
 
 public:
+    std::vector<Fr> compute_a(const std::vector<PublicKey>& pks);
     void hashToG1(G1& P, const std::string& m);
     DNTAT_PS(int num_signers);
     
@@ -57,11 +57,19 @@ public:
         const G1& pku
     );
     
+    // Overload with precomputed aggregation coefficients (avoids O(n^2) recomputation)
+    SignResult sign(
+        const std::vector<SecretKey>& sks,
+        const std::vector<PublicKey>& pks,
+        const Fr& sku,
+        const G1& pku,
+        const std::vector<Fr>& agg_coeffs
+    );
+    
     Token tokenaggr(
         const std::vector<G1>& sigma_bars,
         const G1& hbar,
-        const Fr& omega,
-        const std::vector<PublicKey>& pks
+        const Fr& omega
     );
     
     bool verify(

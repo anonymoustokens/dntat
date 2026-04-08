@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat"
+CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build"
+CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -220,6 +220,19 @@ test_single_sigma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_single_sigma.dir/build.make CMakeFiles/test_single_sigma.dir/build
 .PHONY : test_single_sigma/fast
 
+#=============================================================================
+# Target rules for targets named bm_scaling_bench
+
+# Build rule for target.
+bm_scaling_bench: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bm_scaling_bench
+.PHONY : bm_scaling_bench
+
+# fast build rule for target.
+bm_scaling_bench/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/build
+.PHONY : bm_scaling_bench/fast
+
 src/dntat_ps.o: src/dntat_ps.cpp.o
 .PHONY : src/dntat_ps.o
 
@@ -229,6 +242,7 @@ src/dntat_ps.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_simple.dir/build.make CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_full_debug.dir/build.make CMakeFiles/test_full_debug.dir/src/dntat_ps.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aggregation.dir/build.make CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/dntat_ps.cpp.o
 .PHONY : src/dntat_ps.cpp.o
 
 src/dntat_ps.i: src/dntat_ps.cpp.i
@@ -240,6 +254,7 @@ src/dntat_ps.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_simple.dir/build.make CMakeFiles/test_simple.dir/src/dntat_ps.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_full_debug.dir/build.make CMakeFiles/test_full_debug.dir/src/dntat_ps.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aggregation.dir/build.make CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/dntat_ps.cpp.i
 .PHONY : src/dntat_ps.cpp.i
 
 src/dntat_ps.s: src/dntat_ps.cpp.s
@@ -251,7 +266,32 @@ src/dntat_ps.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_simple.dir/build.make CMakeFiles/test_simple.dir/src/dntat_ps.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_full_debug.dir/build.make CMakeFiles/test_full_debug.dir/src/dntat_ps.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aggregation.dir/build.make CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/dntat_ps.cpp.s
 .PHONY : src/dntat_ps.cpp.s
+
+src/scaling_bench.o: src/scaling_bench.cpp.o
+.PHONY : src/scaling_bench.o
+
+# target to build an object file
+src/scaling_bench.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/scaling_bench.cpp.o
+.PHONY : src/scaling_bench.cpp.o
+
+src/scaling_bench.i: src/scaling_bench.cpp.i
+.PHONY : src/scaling_bench.i
+
+# target to preprocess a source file
+src/scaling_bench.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/scaling_bench.cpp.i
+.PHONY : src/scaling_bench.cpp.i
+
+src/scaling_bench.s: src/scaling_bench.cpp.s
+.PHONY : src/scaling_bench.s
+
+# target to generate assembly for a file
+src/scaling_bench.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/src/scaling_bench.cpp.s
+.PHONY : src/scaling_bench.cpp.s
 
 src/test2.o: src/test2.cpp.o
 .PHONY : src/test2.o
@@ -454,6 +494,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DNTAT"
+	@echo "... bm_scaling_bench"
 	@echo "... test2"
 	@echo "... test_aggregation"
 	@echo "... test_debug"
@@ -464,6 +505,9 @@ help:
 	@echo "... src/dntat_ps.o"
 	@echo "... src/dntat_ps.i"
 	@echo "... src/dntat_ps.s"
+	@echo "... src/scaling_bench.o"
+	@echo "... src/scaling_bench.i"
+	@echo "... src/scaling_bench.s"
 	@echo "... src/test2.o"
 	@echo "... src/test2.i"
 	@echo "... src/test2.s"

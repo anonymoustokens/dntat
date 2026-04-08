@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat"
+CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build"
+CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_simple.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/test_simple.dir/progress.make
 include CMakeFiles/test_simple.dir/flags.make
 
 CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o: CMakeFiles/test_simple.dir/flags.make
-CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/src/dntat_ps.cpp
+CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/src/dntat_ps.cpp
 CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o: CMakeFiles/test_simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o -MF CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o.d -o CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/dntat_ps.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o -MF CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o.d -o CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/dntat_ps.cpp"
 
 CMakeFiles/test_simple.dir/src/dntat_ps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_simple.dir/src/dntat_ps.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/dntat_ps.cpp" > CMakeFiles/test_simple.dir/src/dntat_ps.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/dntat_ps.cpp" > CMakeFiles/test_simple.dir/src/dntat_ps.cpp.i
 
 CMakeFiles/test_simple.dir/src/dntat_ps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_simple.dir/src/dntat_ps.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/dntat_ps.cpp" -o CMakeFiles/test_simple.dir/src/dntat_ps.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/dntat_ps.cpp" -o CMakeFiles/test_simple.dir/src/dntat_ps.cpp.s
 
 CMakeFiles/test_simple.dir/src/test_simple.cpp.o: CMakeFiles/test_simple.dir/flags.make
-CMakeFiles/test_simple.dir/src/test_simple.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/src/test_simple.cpp
+CMakeFiles/test_simple.dir/src/test_simple.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/src/test_simple.cpp
 CMakeFiles/test_simple.dir/src/test_simple.cpp.o: CMakeFiles/test_simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_simple.dir/src/test_simple.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_simple.dir/src/test_simple.cpp.o -MF CMakeFiles/test_simple.dir/src/test_simple.cpp.o.d -o CMakeFiles/test_simple.dir/src/test_simple.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/test_simple.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_simple.dir/src/test_simple.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_simple.dir/src/test_simple.cpp.o -MF CMakeFiles/test_simple.dir/src/test_simple.cpp.o.d -o CMakeFiles/test_simple.dir/src/test_simple.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/test_simple.cpp"
 
 CMakeFiles/test_simple.dir/src/test_simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_simple.dir/src/test_simple.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/test_simple.cpp" > CMakeFiles/test_simple.dir/src/test_simple.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/test_simple.cpp" > CMakeFiles/test_simple.dir/src/test_simple.cpp.i
 
 CMakeFiles/test_simple.dir/src/test_simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_simple.dir/src/test_simple.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/test_simple.cpp" -o CMakeFiles/test_simple.dir/src/test_simple.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/test_simple.cpp" -o CMakeFiles/test_simple.dir/src/test_simple.cpp.s
 
 # Object files for target test_simple
 test_simple_OBJECTS = \
@@ -105,17 +105,17 @@ test_simple_OBJECTS = \
 # External object files for target test_simple
 test_simple_EXTERNAL_OBJECTS =
 
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: CMakeFiles/test_simple.dir/src/test_simple.cpp.o
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: CMakeFiles/test_simple.dir/build.make
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: /Users/simonlion/mcl/lib/libmcl.a
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: /Users/simonlion/mcl/lib/libmclbn256.a
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple: CMakeFiles/test_simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable \"/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_simple\""
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: CMakeFiles/test_simple.dir/src/dntat_ps.cpp.o
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: CMakeFiles/test_simple.dir/src/test_simple.cpp.o
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: CMakeFiles/test_simple.dir/build.make
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: /Users/simonlion/mcl/lib/libmcl.a
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: /Users/simonlion/mcl/lib/libmclbn256.a
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple: CMakeFiles/test_simple.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable \"/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_simple\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_simple.dir/build: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/dntat/bin/test_simple
+CMakeFiles/test_simple.dir/build: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/bmntat/bin/test_simple
 .PHONY : CMakeFiles/test_simple.dir/build
 
 CMakeFiles/test_simple.dir/clean:
@@ -123,6 +123,6 @@ CMakeFiles/test_simple.dir/clean:
 .PHONY : CMakeFiles/test_simple.dir/clean
 
 CMakeFiles/test_simple.dir/depend:
-	cd "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles/test_simple.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles/test_simple.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_simple.dir/depend
 

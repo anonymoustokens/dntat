@@ -111,11 +111,24 @@ std::array<G2, 4> DNTAT_PS::keyaggr(const std::vector<PublicKey>& pks) {
     return apk;
 }
 
+// Original sign() computes agg_coeffs internally
 DNTAT_PS::SignResult DNTAT_PS::sign(
     const std::vector<SecretKey>& sks,
     const std::vector<PublicKey>& pks,
     const Fr& sku,
     const G1& pku
+) {
+    std::vector<Fr> agg_coeffs = compute_a(pks);
+    return sign(sks, pks, sku, pku, agg_coeffs);
+}
+
+// Overload: accepts precomputed aggregation coefficients
+DNTAT_PS::SignResult DNTAT_PS::sign(
+    const std::vector<SecretKey>& sks,
+    const std::vector<PublicKey>& pks,
+    const Fr& sku,
+    const G1& pku,
+    const std::vector<Fr>& agg_coeffs
 ) {
     Fr random1;
     random1.setByCSPRNG();
@@ -307,6 +320,8 @@ DNTAT_PS::SignResult DNTAT_PS::sign(
             G1::mul(temp1_local, pk_i3_neg, r_5);
             sigma_bar += temp1_local;
             
+            // Apply aggregation weight a_i in parallel (moved from tokenaggr)
+            G1::mul(sigma_bar, sigma_bar, agg_coeffs[i]);
             sigma_bars[i] = sigma_bar;
         } catch (const std::exception& e) {
             std::lock_guard<std::mutex> lock(error_mutex);
@@ -344,18 +359,14 @@ DNTAT_PS::SignResult DNTAT_PS::sign(
 Token DNTAT_PS::tokenaggr(
     const std::vector<G1>& sigma_bars,
     const G1& hbar,
-    const Fr& omega,
-    const std::vector<PublicKey>& pks
+    const Fr& omega
 ) {
-    std::vector<Fr> a = compute_a(pks);
-    
+    // sigma_bars are already weighted by a_i in sign(), just sum
     G1 sigma;
     sigma.clear();
     
     for (int i = 0; i < num_signers; ++i) {
-        G1 temp;
-        G1::mul(temp, sigma_bars[i], a[i]);
-        sigma += temp;
+        sigma += sigma_bars[i];
     }
     
     Token token;

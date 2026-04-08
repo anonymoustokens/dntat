@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_multi_signer"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_multi_signer.pdb"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_multi_signer"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_multi_signer.pdb"
   "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o"
   "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o.d"
 )

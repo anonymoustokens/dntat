@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat"
+CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build"
+CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,19 @@ ntat_benchmark/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntat_benchmark.dir/build.make CMakeFiles/ntat_benchmark.dir/build
 .PHONY : ntat_benchmark/fast
 
+#=============================================================================
+# Target rules for targets named mpc_scaling_bench
+
+# Build rule for target.
+mpc_scaling_bench: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpc_scaling_bench
+.PHONY : mpc_scaling_bench
+
+# fast build rule for target.
+mpc_scaling_bench/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/build
+.PHONY : mpc_scaling_bench/fast
+
 src/benchmark.o: src/benchmark.cpp.o
 .PHONY : src/benchmark.o
 
@@ -159,6 +172,7 @@ src/ntat.o: src/ntat.cpp.o
 # target to build an object file
 src/ntat.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntat_benchmark.dir/build.make CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/ntat.cpp.o
 .PHONY : src/ntat.cpp.o
 
 src/ntat.i: src/ntat.cpp.i
@@ -167,6 +181,7 @@ src/ntat.i: src/ntat.cpp.i
 # target to preprocess a source file
 src/ntat.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntat_benchmark.dir/build.make CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/ntat.cpp.i
 .PHONY : src/ntat.cpp.i
 
 src/ntat.s: src/ntat.cpp.s
@@ -175,7 +190,32 @@ src/ntat.s: src/ntat.cpp.s
 # target to generate assembly for a file
 src/ntat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntat_benchmark.dir/build.make CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/ntat.cpp.s
 .PHONY : src/ntat.cpp.s
+
+src/scaling_bench.o: src/scaling_bench.cpp.o
+.PHONY : src/scaling_bench.o
+
+# target to build an object file
+src/scaling_bench.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/scaling_bench.cpp.o
+.PHONY : src/scaling_bench.cpp.o
+
+src/scaling_bench.i: src/scaling_bench.cpp.i
+.PHONY : src/scaling_bench.i
+
+# target to preprocess a source file
+src/scaling_bench.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/scaling_bench.cpp.i
+.PHONY : src/scaling_bench.cpp.i
+
+src/scaling_bench.s: src/scaling_bench.cpp.s
+.PHONY : src/scaling_bench.s
+
+# target to generate assembly for a file
+src/scaling_bench.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_scaling_bench.dir/build.make CMakeFiles/mpc_scaling_bench.dir/src/scaling_bench.cpp.s
+.PHONY : src/scaling_bench.cpp.s
 
 # Help Target
 help:
@@ -185,6 +225,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mpc_scaling_bench"
 	@echo "... ntat_benchmark"
 	@echo "... src/benchmark.o"
 	@echo "... src/benchmark.i"
@@ -192,6 +233,9 @@ help:
 	@echo "... src/ntat.o"
 	@echo "... src/ntat.i"
 	@echo "... src/ntat.s"
+	@echo "... src/scaling_bench.o"
+	@echo "... src/scaling_bench.i"
+	@echo "... src/scaling_bench.s"
 .PHONY : help
 
 

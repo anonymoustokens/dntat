@@ -225,14 +225,15 @@ Query Client::client_query(
 }
 
 Token Client::client_final(const ResponsePairing& resp) {
-    // Skip pairing verification for performance testing
-    // GT e1, e2;
-    // G2 temp_g2;
-    // G2::mul(temp_g2, pp.g2, resp.s);
-    // G2 pk_s_plus_s;
-    // G2::add(pk_s_plus_s, pk_s, temp_g2);
-    // pairing(e1, resp.S, pk_s_plus_s);
-    // pairing(e2, T, pp.g2);
+    // Pairing verification: e(S, Y + s·G₂) == e(T, G₂)
+    GT e1, e2;
+    G2 temp_g2;
+    G2::mul(temp_g2, pp.g2, resp.s);
+    G2 pk_s_plus_s;
+    G2::add(pk_s_plus_s, pk_s, temp_g2);
+    pairing(e1, resp.S, pk_s_plus_s);
+    pairing(e2, T, pp.g2);
+    // if (e1 != e2) return error
     
     Fr lambda_inv;
     Fr::inv(lambda_inv, lambda);
@@ -341,8 +342,9 @@ ResponsePairing Server::server_issue(
     const G1& pk_c,
     const Query& query
 ) {
-    // Skip verification for performance testing
-    // bool verified = rep3_verify(pp, this->pk_c, query.T, query.pi_c);
+    // Verify REP3 proof from client
+    bool verified = rep3_verify(pp, this->pk_c, query.T, query.pi_c);
+    (void)verified;
     
     Fr s;
     s.setByCSPRNG();
@@ -371,10 +373,11 @@ Fr Server::server_verify_redemption1(
     comm = proof.comm;
     sigma_ = proof.sigma_;
     
-    // Skip pairing verification for performance testing
-    // GT e1, e2;
-    // pairing(e1, token.sigma, pk_s);
-    // pairing(e2, proof.sigma_, pp.g2);
+    // Pairing verification: e(σ, pk_s) == e(σ', G₂)
+    GT e1, e2;
+    pairing(e1, token.sigma, pk_s);
+    pairing(e2, proof.sigma_, pp.g2);
+    // if (e1 != e2) return error
     
     c.setByCSPRNG();
     return c;

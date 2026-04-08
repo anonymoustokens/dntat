@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_debug"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_debug.pdb"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_debug"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_debug.pdb"
   "CMakeFiles/test_debug.dir/src/test_debug.cpp.o"
   "CMakeFiles/test_debug.dir/src/test_debug.cpp.o.d"
 )

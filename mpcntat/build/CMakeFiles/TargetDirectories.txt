@@ -1,3 +1,4 @@
-/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles/ntat_benchmark.dir
-/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles/edit_cache.dir
-/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles/rebuild_cache.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles/ntat_benchmark.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles/mpc_scaling_bench.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles/edit_cache.dir
+/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles/rebuild_cache.dir

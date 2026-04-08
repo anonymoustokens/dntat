@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/bin/ntat_benchmark"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/bin/ntat_benchmark.pdb"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/bin/ntat_benchmark"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/bin/ntat_benchmark.pdb"
   "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o"
   "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o.d"
   "CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o"

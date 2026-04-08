@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/benchmark.cpp" "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o" "gcc" "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o.d"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/ntat.cpp" "CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o" "gcc" "CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o.d"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/benchmark.cpp" "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o" "gcc" "CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o.d"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/ntat.cpp" "CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o" "gcc" "CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

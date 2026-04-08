@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/dntat_ps.cpp" "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o" "gcc" "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o.d"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/test_aggregation.cpp" "CMakeFiles/test_aggregation.dir/src/test_aggregation.cpp.o" "gcc" "CMakeFiles/test_aggregation.dir/src/test_aggregation.cpp.o.d"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/dntat_ps.cpp" "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o" "gcc" "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o.d"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/test_aggregation.cpp" "CMakeFiles/test_aggregation.dir/src/test_aggregation.cpp.o" "gcc" "CMakeFiles/test_aggregation.dir/src/test_aggregation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

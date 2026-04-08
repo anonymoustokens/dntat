@@ -66,5 +66,15 @@ add_executable(test_single_sigma ${CMAKE_SOURCE_DIR}/src/test_single_sigma.cpp)
 target_link_libraries(test_single_sigma /Users/simonlion/mcl/lib/libmcl.a /Users/simonlion/mcl/lib/libmclbn256.a)
 target_compile_options(test_single_sigma PRIVATE -O3 -march=native)
 
+find_package(Threads REQUIRED)
+
+# Scaling benchmark
+add_executable(bm_scaling_bench
+    ${CMAKE_SOURCE_DIR}/src/dntat_ps.cpp
+    ${CMAKE_SOURCE_DIR}/src/scaling_bench.cpp
+)
+target_link_libraries(bm_scaling_bench /Users/simonlion/mcl/lib/libmcl.a /Users/simonlion/mcl/lib/libmclbn256.a Threads::Threads)
+target_compile_options(bm_scaling_bench PRIVATE -O3 -march=native -std=c++14)
+
 set(CMAKE_BUILD_TYPE Release)
 

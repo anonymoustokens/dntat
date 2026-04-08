@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_aggregation"
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/bin/test_aggregation.pdb"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_aggregation"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/bin/test_aggregation.pdb"
   "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o"
   "CMakeFiles/test_aggregation.dir/src/dntat_ps.cpp.o.d"
   "CMakeFiles/test_aggregation.dir/src/test_aggregation.cpp.o"

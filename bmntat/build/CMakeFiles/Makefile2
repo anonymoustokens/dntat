@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat"
+CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build"
+CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -71,6 +71,7 @@ all: CMakeFiles/test_multi_signer.dir/all
 all: CMakeFiles/test_full_debug.dir/all
 all: CMakeFiles/test_aggregation.dir/all
 all: CMakeFiles/test_single_sigma.dir/all
+all: CMakeFiles/bm_scaling_bench.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +87,7 @@ clean: CMakeFiles/test_multi_signer.dir/clean
 clean: CMakeFiles/test_full_debug.dir/clean
 clean: CMakeFiles/test_aggregation.dir/clean
 clean: CMakeFiles/test_single_sigma.dir/clean
+clean: CMakeFiles/bm_scaling_bench.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,14 +97,14 @@ clean: CMakeFiles/test_single_sigma.dir/clean
 CMakeFiles/test2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=4,5 "Built target test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=7,8 "Built target test2"
 .PHONY : CMakeFiles/test2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test2.dir/rule
 
 # Convenience name for target.
@@ -121,14 +123,14 @@ CMakeFiles/test2.dir/clean:
 CMakeFiles/DNTAT.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNTAT.dir/build.make CMakeFiles/DNTAT.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNTAT.dir/build.make CMakeFiles/DNTAT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=1,2,3 "Built target DNTAT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=1,2,3 "Built target DNTAT"
 .PHONY : CMakeFiles/DNTAT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DNTAT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DNTAT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/DNTAT.dir/rule
 
 # Convenience name for target.
@@ -147,14 +149,14 @@ CMakeFiles/DNTAT.dir/clean:
 CMakeFiles/test_simple.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_simple.dir/build.make CMakeFiles/test_simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_simple.dir/build.make CMakeFiles/test_simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=16,17,18 "Built target test_simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=19,20,21 "Built target test_simple"
 .PHONY : CMakeFiles/test_simple.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_simple.dir/rule
 
 # Convenience name for target.
@@ -173,14 +175,14 @@ CMakeFiles/test_simple.dir/clean:
 CMakeFiles/test_debug.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_debug.dir/build.make CMakeFiles/test_debug.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_debug.dir/build.make CMakeFiles/test_debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=9,10 "Built target test_debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=12,13 "Built target test_debug"
 .PHONY : CMakeFiles/test_debug.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_debug.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_debug.dir/rule
 
 # Convenience name for target.
@@ -199,14 +201,14 @@ CMakeFiles/test_debug.dir/clean:
 CMakeFiles/test_multi_signer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_multi_signer.dir/build.make CMakeFiles/test_multi_signer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_multi_signer.dir/build.make CMakeFiles/test_multi_signer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=14,15 "Built target test_multi_signer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=17,18 "Built target test_multi_signer"
 .PHONY : CMakeFiles/test_multi_signer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_multi_signer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_multi_signer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_multi_signer.dir/rule
 
 # Convenience name for target.
@@ -225,14 +227,14 @@ CMakeFiles/test_multi_signer.dir/clean:
 CMakeFiles/test_full_debug.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_full_debug.dir/build.make CMakeFiles/test_full_debug.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_full_debug.dir/build.make CMakeFiles/test_full_debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=11,12,13 "Built target test_full_debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=14,15,16 "Built target test_full_debug"
 .PHONY : CMakeFiles/test_full_debug.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_full_debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_full_debug.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_full_debug.dir/rule
 
 # Convenience name for target.
@@ -251,14 +253,14 @@ CMakeFiles/test_full_debug.dir/clean:
 CMakeFiles/test_aggregation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aggregation.dir/build.make CMakeFiles/test_aggregation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aggregation.dir/build.make CMakeFiles/test_aggregation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=6,7,8 "Built target test_aggregation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=9,10,11 "Built target test_aggregation"
 .PHONY : CMakeFiles/test_aggregation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_aggregation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_aggregation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_aggregation.dir/rule
 
 # Convenience name for target.
@@ -277,14 +279,14 @@ CMakeFiles/test_aggregation.dir/clean:
 CMakeFiles/test_single_sigma.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_single_sigma.dir/build.make CMakeFiles/test_single_sigma.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_single_sigma.dir/build.make CMakeFiles/test_single_sigma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" --progress-num=19,20 "Built target test_single_sigma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=22,23 "Built target test_single_sigma"
 .PHONY : CMakeFiles/test_single_sigma.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_single_sigma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_single_sigma.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
 .PHONY : CMakeFiles/test_single_sigma.dir/rule
 
 # Convenience name for target.
@@ -295,6 +297,32 @@ test_single_sigma: CMakeFiles/test_single_sigma.dir/rule
 CMakeFiles/test_single_sigma.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_single_sigma.dir/build.make CMakeFiles/test_single_sigma.dir/clean
 .PHONY : CMakeFiles/test_single_sigma.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bm_scaling_bench.dir
+
+# All Build rule for target.
+CMakeFiles/bm_scaling_bench.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" --progress-num=4,5,6 "Built target bm_scaling_bench"
+.PHONY : CMakeFiles/bm_scaling_bench.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bm_scaling_bench.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bm_scaling_bench.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/build/CMakeFiles" 0
+.PHONY : CMakeFiles/bm_scaling_bench.dir/rule
+
+# Convenience name for target.
+bm_scaling_bench: CMakeFiles/bm_scaling_bench.dir/rule
+.PHONY : bm_scaling_bench
+
+# clean rule for target.
+CMakeFiles/bm_scaling_bench.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bm_scaling_bench.dir/build.make CMakeFiles/bm_scaling_bench.dir/clean
+.PHONY : CMakeFiles/bm_scaling_bench.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

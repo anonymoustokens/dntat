@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat"
+CMAKE_SOURCE_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build"
+CMAKE_BINARY_DIR = "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ntat_benchmark.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/ntat_benchmark.dir/progress.make
 include CMakeFiles/ntat_benchmark.dir/flags.make
 
 CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o: CMakeFiles/ntat_benchmark.dir/flags.make
-CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/src/ntat.cpp
+CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/src/ntat.cpp
 CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o: CMakeFiles/ntat_benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o -MF CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o.d -o CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/ntat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o -MF CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o.d -o CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/ntat.cpp"
 
 CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/ntat.cpp" > CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/ntat.cpp" > CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.i
 
 CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/ntat.cpp" -o CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/ntat.cpp" -o CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.s
 
 CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o: CMakeFiles/ntat_benchmark.dir/flags.make
-CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/src/benchmark.cpp
+CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/src/benchmark.cpp
 CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o: CMakeFiles/ntat_benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o -MF CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o.d -o CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/benchmark.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o -MF CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o.d -o CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o -c "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/benchmark.cpp"
 
 CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/benchmark.cpp" > CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/benchmark.cpp" > CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.i
 
 CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/src/benchmark.cpp" -o CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/src/benchmark.cpp" -o CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.s
 
 # Object files for target ntat_benchmark
 ntat_benchmark_OBJECTS = \
@@ -105,18 +105,18 @@ ntat_benchmark_OBJECTS = \
 # External object files for target ntat_benchmark
 ntat_benchmark_EXTERNAL_OBJECTS =
 
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/build.make
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: /Users/simonlion/mcl/lib/libmcl.a
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: /Users/simonlion/mcl/lib/libmclbn256.a
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: /opt/homebrew/lib/libcrypto.dylib
-/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable \"/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/bin/ntat_benchmark\""
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/src/ntat.cpp.o
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/src/benchmark.cpp.o
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/build.make
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: /Users/simonlion/mcl/lib/libmcl.a
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: /Users/simonlion/mcl/lib/libmclbn256.a
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: /opt/homebrew/lib/libcrypto.dylib
+/Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark: CMakeFiles/ntat_benchmark.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable \"/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/bin/ntat_benchmark\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntat_benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ntat_benchmark.dir/build: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/ntat/bin/ntat_benchmark
+CMakeFiles/ntat_benchmark.dir/build: /Users/simonlion/Desktop/nontransferable\ token/D-NTAT/mpcntat/bin/ntat_benchmark
 .PHONY : CMakeFiles/ntat_benchmark.dir/build
 
 CMakeFiles/ntat_benchmark.dir/clean:
@@ -124,6 +124,6 @@ CMakeFiles/ntat_benchmark.dir/clean:
 .PHONY : CMakeFiles/ntat_benchmark.dir/clean
 
 CMakeFiles/ntat_benchmark.dir/depend:
-	cd "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/CMakeFiles/ntat_benchmark.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build" "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/CMakeFiles/ntat_benchmark.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/ntat_benchmark.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat
+# Install script for directory: /Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/simonlion/Desktop/nontransferable token/D-NTAT/ntat/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/simonlion/Desktop/nontransferable token/D-NTAT/mpcntat/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

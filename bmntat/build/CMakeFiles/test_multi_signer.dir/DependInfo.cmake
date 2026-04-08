@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/dntat/src/test_multi_signer.cpp" "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o" "gcc" "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o.d"
+  "/Users/simonlion/Desktop/nontransferable token/D-NTAT/bmntat/src/test_multi_signer.cpp" "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o" "gcc" "CMakeFiles/test_multi_signer.dir/src/test_multi_signer.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
